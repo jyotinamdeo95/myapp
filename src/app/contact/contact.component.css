@@ -1,0 +1,92 @@
+#contact{
+    min-height:400px;
+    height:auto;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+/*start common css */
+.textCenter{
+    text-align:center! important;
+}
+.bigtext{
+    font-size: 60px;
+    color:#fff;
+    font-weight:bold;
+    }
+    .homeHr,.aboutHr,.contactHr{
+    max-width:50px;
+    border-width:3px;
+    }
+    .homeHr,.contactHr{
+    border-color:#f05f40;
+    }
+    .whiteText{
+    color:#fff;
+    }
+    .greyText{
+    color:#ddd;
+    }
+    .orangeBtn{
+    color:#ddd;
+    font-weight:bold;
+    background-color:#f05f40;
+    }
+    .whiteBtn{
+    background-color:#fff;
+    color:#343a40;
+    }
+    /*end common css*/
+     /* start padding and margin */
+.padTB100{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.marTB50{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.marTB100{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.marT100{
+margin-top:100px;
+}
+.padT100{
+padding-top:100px ! important;
+}
+.padB100{
+    padding-bottom:100px;
+    }
+.padT50{
+    padding-top:50px;
+}
+.padB50{
+    padding-bottom:50px;
+}
+.padT20{
+    padding-top:20px;
+}
+
+.marB100{
+
+    margin-bottom:100px;
+}
+.marT50{
+    margin-top:50px;
+}
+.marT20{
+    margin-top:20px;
+}
+.marB70{
+    margin-bottom:70px;
+}
+.padT100 {
+    padding-top:100px;
+}.padB200{
+    padding-bottom:200px;
+}
+.padB20{
+    padding-bottom:20px;
+}
+ /* end padding and margin */

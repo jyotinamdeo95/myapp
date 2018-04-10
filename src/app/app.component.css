@@ -1,0 +1,271 @@
+/*common css*/
+/*
+.row{
+    display:inline-flex ! important;
+    width:100%;
+}
+
+@media screen and (max-width:1024px) and(min-width:768px){
+    .row{
+        display:block ! important;
+        width:100%;
+    }
+}*/
+
+
+ .marTB100{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.padTB50{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.textCenter{
+    text-align: center;
+}
+.marTB20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.itemCenter{
+    display:flex;
+    justify-content: center;
+}
+/*contact css*/
+#contact{
+    min-height:400px;
+    height:auto;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+/*start common css */
+.textCenter{
+    text-align:center! important;
+}
+
+ /* end padding and margin */
+/*end contact*/
+/*about css */
+#about{
+    background-color:#f05f40;
+    color:#ddd;
+    min-height:400px;
+    height:auto; 
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.noSidePad{
+    padding-left: 0px ! important;
+    padding-right:0px !important;
+}
+/*start common css */
+.textCenter{
+    text-align:center;
+}
+.bigtext{
+    font-size: 60px;
+    color:#fff;
+    font-weight:bold;
+    }
+    .homeHr,.aboutHr,.contactHr{
+    max-width:50px;
+    border-width:3px;
+    }
+    .homeHr,.contactHr{
+    border-color:#f05f40;
+    }
+    .whiteText{
+    color:#fff;
+    }
+    .greyText{
+    color:#ddd;
+    }
+    .orangeBtn{
+    color:#ddd;
+    font-weight:bold;
+    background-color:#f05f40;
+    }
+    .whiteBtn{
+    background-color:#fff;
+    color:#343a40;
+    font-weight:bold;
+    }
+    
+    /*end common css*/
+     /* start padding and margin */
+.padTB100{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.marTB50{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.marTB40{
+     margin-top:40px;
+    margin-bottom:40px;
+}
+.marTB100{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.marT100{
+margin-top:100px;
+}
+.padT100{
+padding-top:100px ! important;
+}
+.padB100{
+    padding-bottom:100px;
+    }
+.padT50{
+    padding-top:50px;
+}
+.padB50{
+    padding-bottom:50px;
+}
+.padT20{
+    padding-top:20px;
+}
+
+.marB100{
+
+    margin-bottom:100px;
+}
+.marT50{
+    margin-top:50px;
+}
+.marT20{
+    margin-top:20px;
+}
+.marB70{
+    margin-bottom:70px;
+}
+.padT100 {
+    padding-top:100px;
+}.padB200{
+    padding-bottom:200px;
+}
+.padB20{
+    padding-bottom:20px;
+}
+.padTB20{
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+}
+ /* end padding and margin */
+/*end about css*/
+/*signup & signin*/
+#signup,#signin{
+    min-height:400px;
+    height:auto;
+    background:url(../assets/images/portfolio2.jpg)no-repeat;
+    background-size:100% 100%;
+    width:100%;
+    font-size:14px;
+    font-weight:normal;
+    color:#ddd;
+}
+.signBtn{
+    font-size:15px;
+    font-weight: bold;
+}
+/*home css*/
+#home{
+    min-height:580px;
+    height:auto;
+    background:url(../assets/images/webbg.jpg) no-repeat;
+    background-size:100% 100%;
+    width:100%;
+    padding-top:150px;
+    padding-bottom:80px;  
+}
+img-responsive{
+    max-width: 100%; height: auto;
+    display:block;
+}
+/*start common css */
+.textCenter{
+    text-align:center;
+}
+
+/*end common css*/
+/*end home css*/
+/*portfolio css*/
+#portfolio{
+    min-height:358px;
+    height:auto;
+    padding-top:40px;
+   
+}
+@media screen and (max-width:425px) and (min-width:320px){
+   .portfolioImg {
+       width:100%;
+
+    }
+}
+@media screen  and (max-width:425px)and (min-width:320px){
+    #portfolio {
+         margin-top:90px  !important;
+     }
+    
+ }
+ @media  screen  and (max-width:1024px) and (min-width:320px){
+    
+     #greyBg{
+       
+     }
+ }
+#greyBg{
+    background-color: #343a40 ! important;
+    color:fff;
+    min-height:40px;
+    height:auto;  padding-top:120px;
+}
+.portfolioImg{
+    width:auto;
+}
+
+.portfolioImages .portfolioImg{
+    width:320px;
+    height:200px;
+    position:relative;
+    top:0px;
+    background:#f05f40;
+}
+.portfolioImages:hover .portfolioImg{
+    opacity:0.6;
+}
+#portfolio{
+    padding-top:0px;
+ } 
+ .noSidePad{
+    padding-left: 0px ! important;
+    padding-right:0px !important;
+}  
+.displayNone{
+    display:none;
+} 
+/*services css*/
+#services{
+    height:auto;
+    min-height:400px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.faSize,.faRed{
+    font-size:60px;
+}
+.faRed{
+    color:#f05f40;
+}
+.greyBg{
+    margin-top:50px;
+     background-color:#212529;
+ }
+ .para{
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#6c757d;
+}

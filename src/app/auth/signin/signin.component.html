@@ -1,0 +1,20 @@
+<div class="container-fluid" id="signin">    
+    <div  class="row ">
+        <div class="col-sm-offset-4 col-sm-4 marTB100">
+            <h2 class="textCenter">User Login </h2>
+            <form (ngSubmit)="onSignUp(f)" class="padTB50"> 
+            <div class="form-group ">
+                <label for="email">Mail</label>
+                <input type="email" id="email" name="email" class="form-control " ngModel>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control" ngModel>
+            </div>
+            <span class="itemCenter">
+                <button type="submit" class="btn btn-primary signBtn btn-lg marTB20 ">Login</button>
+            </span>
+            </form>
+        </div>
+    </div>
+</div>

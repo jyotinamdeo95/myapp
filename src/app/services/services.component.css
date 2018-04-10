@@ -1,0 +1,36 @@
+
+ /*start common css */
+ .textCenter{
+    text-align:center;
+}
+.bigtext{
+font-size: 60px;
+color:#fff;
+font-weight:bold;
+}
+.homeHr,.aboutHr,.contactHr{
+max-width:50px;
+border-width:3px;
+}
+.homeHr,.contactHr{
+border-color:#f05f40;
+}
+.whiteText{
+color:#fff;
+}
+.greyText{
+color:#ddd;
+}
+.orangeBtn{
+color:#ddd;
+font-weight:bold;
+background-color:#f05f40;
+}
+.whiteBtn{
+background-color:#fff;
+color:#343a40;
+}
+/*end common css*/
+ /* start padding and margin */
+ 
+ /* end padding and margin */
